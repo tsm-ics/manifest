@@ -25,11 +25,8 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/sample" name="device/sample" />
   <project path="device/samsung/fascinatemtd" name="jt1134/android_device_samsung_fascinatemtd" remote="github" revision="ics" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" />
-  <project path="device/ti/panda" name="device/ti/panda" />
+  <project path="device/samsung/epic4gtouch" name="tsm-ics/device_samsung_epic4gtouch" remote="github" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -149,7 +146,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="ics" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="jt1134/android_frameworks_base" remote="github" revision="ics" />
+  <project path="frameworks/base" name="tsm-ics/frameworks_base" remote="github" revision="ics" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -172,6 +169,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="kernel/samsung/aries" name="teamhacksung/samsung-kernel-aries" remote="github" revision="ics" />
+  <project path="kernel/samsung/c1" name="tsm-ics/samsung-kernel-c1" remote="github" revision="ics-samsung-2.6.35.14" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -234,6 +232,6 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
-  <project path="vendor/samsung" name="jt1134/proprietary_vendor_samsung" remote="github" revision="ics" />
+  <project path="vendor/samsung" name="tsm-ics/vendor_samsung" remote="github" revision="master" />
 
 </manifest>
