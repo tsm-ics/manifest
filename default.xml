@@ -14,7 +14,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="android" name="tsm-ics/platform_manifest" remote="github" revision="master" />
+  <project path="android" name="tsm-ics/manifest" remote="github" revision="ics" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
