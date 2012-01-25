@@ -175,7 +175,6 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="kernel/samsung/aries" name="teamhacksung/samsung-kernel-aries" remote="github" revision="ics" />
-  <project path="kernel/samsung/c1spr" name="tsm-ics/samsung-kernel-c1spr" remote="github" revision="android-samsung-2.6.35.7" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
