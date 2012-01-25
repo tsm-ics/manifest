@@ -25,8 +25,13 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/samsung/fascinatemtd" name="teamhacksung/android_device_samsung_fascinatemtd" remote="github" revision="ics" />
+  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" revision="gingerbread" />
+  <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" remote="github" revision="ics" />
+  <project path="device/htc/vivow" name="tsm-ics/device_htc_vivow" remote="github" revision="ics" />
   <project path="device/samsung/epic4gtouch" name="tsm-ics/device_samsung_epic4gtouch" remote="github" revision="master" />
+  <project path="device/samsung/fascinatemtd" name="teamhacksung/android_device_samsung_fascinatemtd" remote="github" revision="ics" />
+  <project path="device/samsung/toro" name="tsm-ics/device_samsung_toro" remote="github" revision="ics" />
+  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" remote="github" revision="ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -195,7 +200,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="tsm-ics/packages_apps_phone" remote="github" revision="ics" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
@@ -234,5 +239,6 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="tsm-ics/vendor_samsung" remote="github" revision="master" />
+  <project path="vendor/tsm" name="tsm-ics/vendor_tsm.git" remote="github" revision="ics" />
 
 </manifest>
