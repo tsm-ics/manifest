@@ -240,7 +240,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="ics" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="ics" />
   <project path="vendor/samsung" name="tsm-ics/vendor_samsung" remote="github" revision="master" />
   <project path="vendor/tsm" name="tsm-ics/vendor_tsm.git" remote="github" revision="ics" />
 
